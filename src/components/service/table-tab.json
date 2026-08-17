@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_table_tabs",
+  "info": {
+    "displayName": "Table Tab",
+    "icon": "folder",
+    "description": "A tab containing a structured table"
+  },
+  "options": {},
+  "attributes": {
+    "tabName": {
+      "type": "string",
+      "required": true
+    },
+    "headers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-cell"
+    },
+    "rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.table-row"
+    }
+  }
+}

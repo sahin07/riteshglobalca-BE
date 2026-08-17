@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_pricing_packages",
+  "info": {
+    "displayName": "Package",
+    "icon": "shoppingCart"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "billingPeriod": {
+      "type": "string",
+      "required": true
+    },
+    "badge": {
+      "type": "string"
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true
+    },
+    "ctaLink": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.feature"
+    }
+  }
+}

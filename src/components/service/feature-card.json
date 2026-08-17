@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_service_feature_cards",
+  "info": {
+    "displayName": "Feature Card",
+    "description": "A card with title, description, and list of points"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "points": {
+      "type": "json",
+      "description": "Array of strings for bullet points"
+    }
+  }
+}

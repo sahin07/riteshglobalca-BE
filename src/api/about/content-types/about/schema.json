@@ -1,0 +1,113 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About Page",
+    "description": "Content for the About Us page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heroDescription": {
+      "type": "text",
+      "required": true
+    },
+    "heroBackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroPrimaryButtonText": {
+      "type": "string"
+    },
+    "heroPrimaryButtonLink": {
+      "type": "string"
+    },
+    "heroSecondaryButtonText": {
+      "type": "string"
+    },
+    "heroSecondaryButtonLink": {
+      "type": "string"
+    },
+    "storyTitle": {
+      "type": "string",
+      "required": true
+    },
+    "storyContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "storyImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "missionVisionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "missionVisionCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.core-value"
+    },
+    "journeyTitle": {
+      "type": "string",
+      "required": true
+    },
+    "journeySubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "milestones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.milestone"
+    },
+    "leadershipTitle": {
+      "type": "string",
+      "required": true
+    },
+    "leadershipSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "teamMembers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.team-member"
+    },
+    "ctaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ctaSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "ctaButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "ctaButtonLink": {
+      "type": "string",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

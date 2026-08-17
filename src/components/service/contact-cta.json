@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_service_contact_ctas",
+  "info": {
+    "displayName": "Contact CTA",
+    "description": "A call to action section with contact info and a form"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

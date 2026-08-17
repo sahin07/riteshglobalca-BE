@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_modules",
+  "info": {
+    "singularName": "main-module",
+    "pluralName": "main-modules",
+    "displayName": "Practice Areas",
+    "description": "Top level module like INDIA PRACTICE"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "menuLabel": {
+      "type": "string"
+    },
+    "position": {
+      "type": "integer",
+      "default": 0
+    },
+    "intro": {
+      "type": "text"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::service-category.service-category",
+      "mappedBy": "mainModule"
+    }
+  }
+}

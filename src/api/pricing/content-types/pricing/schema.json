@@ -1,0 +1,95 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "Pricing",
+    "description": "Schema for CA pricing page content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heroDescription": {
+      "type": "text",
+      "required": true
+    },
+    "heroCtaText": {
+      "type": "string"
+    },
+    "heroCtaLink": {
+      "type": "string"
+    },
+    "packagesTitle": {
+      "type": "string",
+      "required": true
+    },
+    "packages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.package"
+    },
+    "servicesTitle": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.service-pricing"
+    },
+    "addonsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "addons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.addon"
+    },
+    "comparisonTitle": {
+      "type": "string",
+      "required": true
+    },
+    "comparisonFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.feature-comparison"
+    },
+    "faqsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.faq"
+    },
+    "ctaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "ctaSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "ctaButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "ctaButtonLink": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pricing_service_pricings",
+  "info": {
+    "displayName": "Service Pricing",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "priceInfo": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

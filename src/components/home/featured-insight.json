@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_featured_insights",
+  "info": {
+    "displayName": "Featured Insight",
+    "icon": "book",
+    "description": "Featured blog post or update on the home page"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "categoryOrDate": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "linkUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

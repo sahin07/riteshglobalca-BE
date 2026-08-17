@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_service_process_steps",
+  "info": {
+    "displayName": "Process Step",
+    "description": "A single step in a process journey"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

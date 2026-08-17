@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_service_process_tabs",
+  "info": {
+    "displayName": "Process Tab",
+    "description": "A tab containing process steps"
+  },
+  "options": {},
+  "attributes": {
+    "tabName": {
+      "type": "string",
+      "required": true
+    },
+    "steps": {
+      "type": "component",
+      "component": "service.process-step",
+      "repeatable": true
+    },
+    "tab_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

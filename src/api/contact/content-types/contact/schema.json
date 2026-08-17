@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact Page",
+    "description": "Content schema for CA Contact Us page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "bannerTitle": {
+      "type": "string",
+      "required": true
+    },
+    "bannerSubtitle": {
+      "type": "text",
+      "required": true
+    },
+    "officeAddressTitle": {
+      "type": "string",
+      "required": true
+    },
+    "officeAddress": {
+      "type": "text",
+      "required": true
+    },
+    "contactDetailsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "officeHoursTitle": {
+      "type": "string",
+      "required": true
+    },
+    "officeHours": {
+      "type": "text",
+      "required": true
+    },
+    "formTitle": {
+      "type": "string",
+      "required": true
+    },
+    "formDescription": {
+      "type": "text",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

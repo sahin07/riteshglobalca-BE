@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_table_cells",
+  "info": {
+    "displayName": "Table Cell",
+    "icon": "font",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

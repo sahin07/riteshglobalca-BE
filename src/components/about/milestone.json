@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_milestones",
+  "info": {
+    "displayName": "Milestone",
+    "icon": "clock",
+    "description": "A timeline milestone"
+  },
+  "options": {},
+  "attributes": {
+    "yearTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

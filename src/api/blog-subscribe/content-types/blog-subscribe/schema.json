@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_subscribes",
+  "info": {
+    "singularName": "blog-subscribe",
+    "pluralName": "blog-subscribes",
+    "displayName": "Blog Subscribe",
+    "description": "Content for the blog subscribe section"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "subscribeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "subscribePlaceholder": {
+      "type": "string",
+      "required": true
+    },
+    "subscribeButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "subscribeDisclaimer": {
+      "type": "text",
+      "required": true
+    },
+    "privacyPolicyLinkText": {
+      "type": "string"
+    },
+    "privacyPolicyLinkUrl": {
+      "type": "string"
+    }
+  }
+}

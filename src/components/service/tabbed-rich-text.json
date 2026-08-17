@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_service_tabbed_rich_texts",
+  "info": {
+    "displayName": "Tabbed Rich Text Section",
+    "description": "A section containing tabs, each with rich text content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.rich-text-tab"
+    }
+  }
+}

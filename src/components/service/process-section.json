@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_service_process_sections",
+  "info": {
+    "displayName": "Process Section",
+    "description": "A section containing tabbed process steps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.process-tab"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_service_feature_grids",
+  "info": {
+    "displayName": "Feature Grid",
+    "description": "A section with a title and a grid of feature cards"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionSubtitle": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.feature-card"
+    }
+  }
+}

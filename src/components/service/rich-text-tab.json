@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_service_rich_text_tabs",
+  "info": {
+    "displayName": "Rich Text Tab",
+    "description": "A tab containing rich text content like tables or paragraphs"
+  },
+  "options": {},
+  "attributes": {
+    "tabName": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

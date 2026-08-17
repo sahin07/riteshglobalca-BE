@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pricing_addons",
+  "info": {
+    "displayName": "Addon",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

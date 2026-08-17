@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_featured_services",
+  "info": {
+    "displayName": "Featured Service",
+    "icon": "briefcase",
+    "description": "A service card displayed on the home page"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "linkText": {
+      "type": "string",
+      "default": "Learn More"
+    },
+    "linkUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

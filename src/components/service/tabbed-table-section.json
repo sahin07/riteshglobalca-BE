@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_service_tabbed_table_sections",
+  "info": {
+    "displayName": "Tabbed Table Section",
+    "icon": "layer",
+    "description": "A section with tabs, where each tab displays a specific table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.table-tab"
+    }
+  }
+}

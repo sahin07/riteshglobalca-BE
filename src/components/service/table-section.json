@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_service_table_sections",
+  "info": {
+    "displayName": "Table Section",
+    "icon": "apps",
+    "description": "A table format section allowing columns and rows without raw HTML"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headers": {
+      "type": "component",
+      "component": "shared.table-cell",
+      "repeatable": true
+    },
+    "rows": {
+      "type": "component",
+      "component": "shared.table-row",
+      "repeatable": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

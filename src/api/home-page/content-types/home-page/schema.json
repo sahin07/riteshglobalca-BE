@@ -1,0 +1,142 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Content for the main landing page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heroDescription": {
+      "type": "text",
+      "required": true
+    },
+    "heroPrimaryButtonText": {
+      "type": "string"
+    },
+    "heroPrimaryButtonLink": {
+      "type": "string"
+    },
+    "heroSecondaryButtonText": {
+      "type": "string"
+    },
+    "heroSecondaryButtonLink": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "servicesTitle": {
+      "type": "string",
+      "required": true
+    },
+    "servicesSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.featured-service"
+    },
+    "servicesButtonText": {
+      "type": "string"
+    },
+    "servicesButtonLink": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.stat"
+    },
+    "trustedByTitle": {
+      "type": "string",
+      "required": true
+    },
+    "trustedBySubtitle": {
+      "type": "string"
+    },
+    "trustedByLogos": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images"]
+    },
+    "aboutSectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "aboutLeftTitle": {
+      "type": "string",
+      "required": true
+    },
+    "aboutLeftDescription": {
+      "type": "text",
+      "required": true
+    },
+    "aboutLeftButtonText": {
+      "type": "string"
+    },
+    "aboutLeftButtonLink": {
+      "type": "string"
+    },
+    "aboutRightTitle": {
+      "type": "string",
+      "required": true
+    },
+    "aboutRightPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.bullet-point"
+    },
+    "insightsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "insightsSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "insights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.featured-insight"
+    },
+    "testimonialsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "testimonialsSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.testimonial"
+    },
+    "contactTitle": {
+      "type": "string",
+      "required": true
+    },
+    "contactSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

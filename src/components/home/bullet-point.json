@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_bullet_points",
+  "info": {
+    "displayName": "Bullet Point",
+    "icon": "check",
+    "description": "Simple text bullet point for lists"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

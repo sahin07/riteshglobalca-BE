@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_pricing_feature_comparisons",
+  "info": {
+    "displayName": "Feature Comparison",
+    "icon": "layerGroup"
+  },
+  "options": {},
+  "attributes": {
+    "featureName": {
+      "type": "string",
+      "required": true
+    },
+    "basicValue": {
+      "type": "string"
+    },
+    "standardValue": {
+      "type": "string"
+    },
+    "premiumValue": {
+      "type": "string"
+    }
+  }
+}

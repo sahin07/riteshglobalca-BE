@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_service_rich_text_sections",
+  "info": {
+    "displayName": "Rich Text Section",
+    "description": "A section containing rich text, useful for tables or unstructured content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
