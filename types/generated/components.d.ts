@@ -285,7 +285,8 @@ export interface ServiceProcessStep extends Struct.ComponentSchema {
     displayName: 'Process Step';
   };
   attributes: {
-    title: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
 
