@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "google_reviews_settings",
+  "info": {
+    "singularName": "google-reviews-setting",
+    "pluralName": "google-reviews-settings",
+    "displayName": "Google Reviews Settings",
+    "description": "Google Business profile link and overall rating shown above the reviews"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "googleProfileUrl": {
+      "type": "string"
+    },
+    "averageRating": {
+      "type": "decimal",
+      "min": 1,
+      "max": 5
+    },
+    "totalReviews": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}
